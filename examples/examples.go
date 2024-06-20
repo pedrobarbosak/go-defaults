@@ -1,7 +1,3 @@
-# go-defaults
-Golang Defaults Fields in Structs
-
-```go
 package main
 
 import (
@@ -67,5 +63,3 @@ func main() {
 	log.Printf("%+v\n", s2)
 	log.Println("SLice2 is nil:", s2.Slice2 == nil)
 }
-
-```
